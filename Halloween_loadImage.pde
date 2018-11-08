@@ -10,7 +10,7 @@ void setup() {
 
 void draw() 
 {
-}
+
 
 void mouseDragged()
 {
@@ -20,4 +20,5 @@ void mouseDragged()
   noStroke();
   fill(255, 200, 25);
   ellipse(mouseX, mouseY, 5, 5);
+}
 }
