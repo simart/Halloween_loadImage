@@ -1,3 +1,5 @@
+//SORRY TO BUG YOU WITH THIS ART!
+
 //Click and Drag your cursor to "carve" the pumpkins
 
 PImage img;
