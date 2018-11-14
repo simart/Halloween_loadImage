@@ -13,13 +13,13 @@ void draw()
 
  image(img, 0, 0);
  
-//void mouseDragged()
-//{
+void mouseDragged()
+{
   //"Carves" the pumpkins
-  //blendMode optional, might be problematic with a light or white background
-  //blendMode(OVERLAY); 
-  //noStroke();
-  //fill(255, 200, 25);
-  //ellipse(mouseX, mouseY, 5, 5);
+  blendMode optional, might be problematic with a light or white background
+  blendMode(OVERLAY); 
+  noStroke();
+  fill(255, 200, 25);
+  ellipse(mouseX, mouseY, 5, 5);
 
 }
