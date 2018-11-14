@@ -5,20 +5,19 @@ PImage img;
 void setup() {
   size(800, 500);
   img = loadImage("pumpkins.png");
- image(img, 0, 0);
+  image(img, 0, 0);
 }
 
 void draw() 
 {
+  
+}
 
- }
- 
 void mouseDragged()
 {
-  //"Carves" the pumpkins, blendMode optional, might be problematic with a light or white background
+  //"Carves" the pumpkins
   blendMode(OVERLAY); 
   noStroke();
   fill(255, 200, 25);
   ellipse(mouseX, mouseY, 5, 5);
-
 }
