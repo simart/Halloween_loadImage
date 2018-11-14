@@ -5,13 +5,13 @@ PImage img;
 void setup() {
   size(800, 500);
   img = loadImage("pumpkins.png");
- 
+ image(img, 0, 0);
 }
 
 void draw() 
 {
 
- image(img, 0, 0);
+ }
  
 void mouseDragged()
 {
