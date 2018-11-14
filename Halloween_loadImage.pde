@@ -15,8 +15,7 @@ void draw()
  
 void mouseDragged()
 {
-  //"Carves" the pumpkins
-  blendMode optional, might be problematic with a light or white background
+  //"Carves" the pumpkins, blendMode optional, might be problematic with a light or white background
   blendMode(OVERLAY); 
   noStroke();
   fill(255, 200, 25);
