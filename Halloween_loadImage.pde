@@ -24,7 +24,8 @@ void mouseDragged()
   see http://processingjs.org/reference/
   */
   noStroke();
-  int c = blendColor(get(mouseX,mouseY),color(255, 200, 25),OVERLAY);
-  fill(c);
+ // int c = blendColor(get(mouseX,mouseY),color(255, 200, 25),OVERLAY);
+  //fill(c);
+  fill(255, 200, 25);
   ellipse(mouseX, mouseY, 5, 5);
 }
