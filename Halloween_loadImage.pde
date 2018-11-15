@@ -1,7 +1,7 @@
 //SORRY TO BUG YOU WITH THIS ART!
 
 //Click and Drag your cursor to "carve" the pumpkins
-
+/* @pjs preload="pumpkins-1.png"; */
 PImage img;
 
 void setup() {
