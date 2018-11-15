@@ -18,8 +18,13 @@ void draw()
 void mouseDragged()
 {
   //"Carves" the pumpkins
-  blendMode(OVERLAY); 
+  /* blendMode(OVERLAY);
+  blendMode is not supported on the web
+  blendColor is an option
+  see http://processingjs.org/reference/
+  */
   noStroke();
-  fill(255, 200, 25);
+  int c = blendColor(get(mouseX,mouseY),color(255, 200, 25),OVERLAY);
+  fill(c);
   ellipse(mouseX, mouseY, 5, 5);
 }
