@@ -18,8 +18,8 @@ void draw()
 void mouseDragged()
 {
   //"Carves" the pumpkins
-  /* blendMode(OVERLAY);
-  blendMode is not supported on the web
+  blendMode(OVERLAY);
+ /* blendMode is not supported on the web
   blendColor is an option
   see http://processingjs.org/reference/
   */
