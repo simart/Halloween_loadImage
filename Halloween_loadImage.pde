@@ -1,6 +1,4 @@
-//SORRY TO BUG YOU WITH THIS ART!
-
-//Click and Drag your cursor to "carve" the pumpkins
+//Line 2 is a special web method to "preload" an image see http://processingjs.org/reference/loadImage_/
 /* @pjs preload="pumpkins-1.png"; */
 PImage img;
 
@@ -18,14 +16,14 @@ void draw()
 void mouseDragged()
 {
   //"Carves" the pumpkins
-  blendMode(OVERLAY);
- /* blendMode is not supported on the web
+  /* blendMode(OVERLAY);
+  blendMode is not supported on the web
   blendColor is an option
   see http://processingjs.org/reference/
   */
   noStroke();
- // int c = blendColor(get(mouseX,mouseY),color(255, 200, 25),OVERLAY);
-  //fill(c);
-  fill(255, 200, 25);
+  int c = blendColor(get(mouseX,mouseY),color(255, 200, 25),OVERLAY);
+  fill(c);
+  //fill(255, 200, 25);
   ellipse(mouseX, mouseY, 5, 5);
 }
